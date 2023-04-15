@@ -12,8 +12,8 @@ export default function Home() {
           <h2>Tips for Always Looking Elegant and Appropriate</h2>
           <p>
             Dressing appropriately can convey respect, professionalism, and
-            confidence. Therefore, choosing the right tuxedo for every occasion
-            is so important. Our website provides tips on fit, measurements, and
+            confidence. Therefore, choosing the right suit for every occasion is
+            so important. Our website provides tips on fit, measurements, and
             colour combinations to ensure that you're always dressed elegantly
             and appropriately.
           </p>
