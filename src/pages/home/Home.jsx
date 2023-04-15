@@ -19,7 +19,7 @@ export default function Home() {
           </p>
           <p>
             Whether it's for a job interview, wedding, or any other formal
-            occasion, our comprehensive tuxedo guide is here to help you stand
+            occasion, our comprehensive suit guide is here to help you stand
             out. Explore all the information we have available and make sure
             you're always dressed in accordance with the situation.
           </p>
