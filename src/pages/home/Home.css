@@ -1,3 +1,32 @@
 * {
   color: white;
 }
+.Home {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 0;
+  align-items: flex-end;
+}
+.photo {
+  width: 450px;
+  height: 555px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.text {
+  padding-bottom: 30px;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
+  padding-left: 5px;
+}
+p {
+  max-width: 600px;
+  font-size: 18px;
+  margin-top: 10px;
+  padding-left: 5px;
+}
