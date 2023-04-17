@@ -5,7 +5,7 @@ import photo from "../../assets/images/home-photo.jpg";
 export default function Home() {
   return (
     <div className="Home">
-      <img src={photo} alt="Main Photo" className="photo" />
+      <img src={photo} alt="Photo" className="photo" />
       <div className="textContainer">
         <div className="text">
           <h1>Men's Suit Guide</h1>
