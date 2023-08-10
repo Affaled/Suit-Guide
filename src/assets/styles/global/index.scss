@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Ysabeau+Office:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap");
+@import "../util/variables";
+@import "../util/functions";
+
+:root {
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $text-color;
+
+  background-color: $background-color;
+}
