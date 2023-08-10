@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Drawer() {
   return (
-    <aside className="Drawer">
+    <div className="Drawer">
+      <div className="Drawer__logo">
+        <h1>Affaled</h1>
+      </div>
       <nav className="Drawer__nav">
         <ul>
           <li>
@@ -25,6 +28,6 @@ export default function Drawer() {
           </li>
         </ul>
       </nav>
-    </aside>
+    </div>
   );
 }

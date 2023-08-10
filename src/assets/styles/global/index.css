@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Ysabeau+Office:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap");
 .Drawer {
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
@@ -7,6 +8,16 @@
   height: 100%;
   padding: 0.5rem;
   background-color: #ccc5b9;
+}
+.Drawer__logo {
+  display: inline-block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+}
+.Drawer__logo h1 {
+  display: block;
+  width: 100%;
+  font-size: 1.5rem;
 }
 .Drawer__nav {
   display: block;
@@ -22,7 +33,7 @@
 .Drawer__nav li a {
   display: flex;
   flex-grow: 1;
-  padding: 0.75rem;
+  padding: 0.75rem 1rem;
   border-radius: 0.375rem;
 }
 
