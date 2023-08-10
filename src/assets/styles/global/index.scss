@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Ysabeau+Office:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap");
+
+//Util
 @import "../util/variables";
 @import "../util/functions";
+
+//Components
+@import "../components/Drawer";
 
 * {
   box-sizing: border-box;
