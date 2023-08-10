@@ -1,0 +1,31 @@
+.Drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 260px;
+  height: 100%;
+
+  padding: 0.5rem;
+
+  background-color: $auxiliar-color;
+
+  &__nav {
+    display: block;
+
+    background: white;
+
+    & li {
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      & a {
+        display: inline-block;
+
+        padding: 0.75rem;
+      }
+    }
+  }
+}
