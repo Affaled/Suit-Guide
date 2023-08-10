@@ -3,7 +3,7 @@ import React from "react";
 export default function Drawer() {
   return (
     <aside className="Drawer">
-      <nav>
+      <nav className="Drawer__nav">
         <ul>
           <li>
             <a href="a">Início</a>
