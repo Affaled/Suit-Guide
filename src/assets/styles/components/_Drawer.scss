@@ -13,18 +13,26 @@
   background-color: $auxiliar-color;
 
   &__logo {
-    display: inline-block;
+    display: flex;
+
+    align-items: center;
+    gap: 0.5rem;
 
     width: 100%;
 
     padding: 0.75rem 1rem;
 
+    & img {
+      display: inline-block;
+
+      max-width: 3rem;
+      max-height: 3rem;
+    }
+
     & h1 {
-      display: block;
+      display: inline-block;
 
-      width: 100%;
-
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
   }
 

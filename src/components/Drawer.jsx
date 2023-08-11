@@ -1,10 +1,12 @@
 import React from "react";
+import logo from "../assets/svg/logo.svg";
 
 export default function Drawer() {
   return (
     <div className="Drawer">
       <div className="Drawer__logo">
-        <h1>Affaled</h1>
+        <img src={logo} alt="Logo" />
+        <h1>Affaled Motos</h1>
       </div>
       <nav className="Drawer__nav">
         <ul>

@@ -10,14 +10,20 @@
   background-color: #ccc5b9;
 }
 .Drawer__logo {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   width: 100%;
   padding: 0.75rem 1rem;
 }
+.Drawer__logo img {
+  display: inline-block;
+  max-width: 3rem;
+  max-height: 3rem;
+}
 .Drawer__logo h1 {
-  display: block;
-  width: 100%;
-  font-size: 1.5rem;
+  display: inline-block;
+  font-size: 1.3rem;
 }
 .Drawer__nav {
   display: block;
