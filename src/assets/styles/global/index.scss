@@ -4,9 +4,6 @@
 @import "../util/variables";
 @import "../util/functions";
 
-//Components
-@import "../components/Drawer";
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,3 +23,10 @@ a {
 
   background-color: $background-color;
 }
+
+#root {
+  display: flex;
+}
+
+//Components
+@import "../components/Drawer";
