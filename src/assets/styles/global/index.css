@@ -67,4 +67,28 @@ a {
 .Drawer__nav li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 1px 0.15rem rgba(0, 0, 0, 0.15);
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  width: calc(100% - 260px);
+  height: 0%;
+  padding: 0.5rem 0;
+}
+.Header__search {
+  width: 23rem;
+  height: 2rem;
+  padding: 0 0.5rem;
+  margin-right: 6rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 0.375rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  box-shadow: none;
+}
+.Header__search:focus {
+  outline: 1px solid #ccc5b9;
 }/*# sourceMappingURL=index.css.map */
