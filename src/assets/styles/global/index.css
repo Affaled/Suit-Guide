@@ -29,12 +29,14 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  margin-left: 260px;
   width: calc(100% - 260px);
   height: 100%;
 }
 
 .Drawer {
   display: block;
+  position: fixed;
   top: 0;
   left: 0;
   width: 260px;

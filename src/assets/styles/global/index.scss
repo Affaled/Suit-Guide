@@ -30,6 +30,8 @@ a {
   & .App {
     @include flex(column, start, start);
 
+    margin-left: 260px;
+
     width: calc(100% - 260px);
     height: 100%;
   }
