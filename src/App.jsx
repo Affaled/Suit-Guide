@@ -1,6 +1,7 @@
 import React from "react";
 import Drawer from "./components/Drawer";
 import Header from "./components/Header";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Drawer />
       <div className="App">
         <Header />
+        <Home />
       </div>
     </>
   );

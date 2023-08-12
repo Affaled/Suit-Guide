@@ -1,0 +1,13 @@
+.Home {
+  @include flex(row, center, start);
+
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+
+  &__inventory {
+    background-color: white;
+
+    width: 60%;
+  }
+}

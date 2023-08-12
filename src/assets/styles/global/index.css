@@ -28,7 +28,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: start;
+  align-items: center;
   margin-left: 260px;
   width: calc(100% - 260px);
   height: 100%;
@@ -104,4 +104,18 @@ a {
 }
 .Header__search:focus {
   outline: 1px solid #ccc5b9;
+}
+
+.Home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+}
+.Home__inventory {
+  background-color: white;
+  width: 60%;
 }/*# sourceMappingURL=index.css.map */

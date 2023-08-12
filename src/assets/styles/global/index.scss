@@ -28,7 +28,7 @@ a {
   @include flex(row, start, start);
 
   & .App {
-    @include flex(column, start, start);
+    @include flex(column, start, center);
 
     margin-left: 260px;
 
@@ -40,3 +40,6 @@ a {
 //Components
 @import "../components/Drawer";
 @import "../components/Header";
+
+//Pages
+@import "../pages/Home";
