@@ -6,7 +6,7 @@ export default function Drawer() {
     <div className="Drawer">
       <div className="Drawer__logo">
         <img src={logo} alt="Logo" />
-        <h1>Affaled Motos</h1>
+        <h1>Gigante Motos</h1>
       </div>
       <nav className="Drawer__nav">
         <ul>
