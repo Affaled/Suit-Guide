@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Header() {
-  return <div>Header</div>;
+  return (
+    <header className="Header">
+      <input className="Header__search" type="text" placeholder="Busque" />
+    </header>
+  );
 }
