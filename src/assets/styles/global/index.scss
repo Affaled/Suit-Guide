@@ -25,7 +25,14 @@ a {
 }
 
 #root {
-  display: flex;
+  @include flex(row, start, start);
+
+  & .App {
+    @include flex(column, start, start);
+
+    width: calc(100% - 260px);
+    height: 100%;
+  }
 }
 
 //Components

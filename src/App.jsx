@@ -6,7 +6,9 @@ export default function App() {
   return (
     <>
       <Drawer />
-      <Header />
+      <div className="App">
+        <Header />
+      </div>
     </>
   );
 }
