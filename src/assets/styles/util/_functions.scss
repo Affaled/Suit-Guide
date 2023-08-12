@@ -4,3 +4,11 @@
   justify-content: $justify;
   align-items: $align;
 }
+@mixin Home__inventory--item($color) {
+  width: 22%;
+  height: 6rem;
+
+  border-radius: 0.75rem;
+
+  background-color: $color;
+}

@@ -114,8 +114,39 @@ a {
   width: 100%;
   max-width: 1440px;
   height: 100%;
+  padding: 0 1rem;
 }
 .Home__inventory {
-  background-color: white;
-  width: 60%;
+  width: 100%;
+  height: 100%;
+}
+.Home__inventory--revenue {
+  width: 22%;
+  height: 6rem;
+  border-radius: 0.75rem;
+  background-color: #3e688c;
+}
+.Home__inventory--expences {
+  width: 22%;
+  height: 6rem;
+  border-radius: 0.75rem;
+  background-color: #81231e;
+}
+.Home__inventory--profit {
+  width: 22%;
+  height: 6rem;
+  border-radius: 0.75rem;
+  background-color: #5f6a54;
+}
+.Home__inventory--profitToday {
+  width: 22%;
+  height: 6rem;
+  border-radius: 0.75rem;
+  background-color: #cab891;
+}
+.Home__inventory--list {
+  background-color: #dededd;
+  width: 100%;
+  height: 15rem;
+  border-radius: 0.75rem;
 }/*# sourceMappingURL=index.css.map */
